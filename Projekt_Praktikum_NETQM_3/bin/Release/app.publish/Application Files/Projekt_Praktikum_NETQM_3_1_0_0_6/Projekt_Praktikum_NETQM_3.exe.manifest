@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Projekt_Praktikum_NETQM_3.exe" version="1.0.0.6" publicKeyToken="9ee61cfa7ffdb9ed" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="IconLabel.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Projekt_Praktikum_NETQM_3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Projekt_Praktikum_NETQM_3.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Zugangsebene für das Windows-Benutzerkonto ändern möchten, ersetzen Sie den 
+          requestedExecutionLevel-Knoten durch eines der folgenden Elemente.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Löschen Sie den requestedExecutionLevel-Knoten, wenn Sie 
+         zum Gewährleisten der Abwärtskompatibilität die Datei- und Registrierungsvirtualisierung verwenden möchten.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Projekt_Praktikum_NETQM_3.exe" size="448472">
+      <assemblyIdentity name="Projekt_Praktikum_NETQM_3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>EN4vz3rmeNRIkDoGml75hAEeVUyn7sIY5DZg2lXNKFE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="IconLabel.ico" size="209762">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>e+g+RZ/50eCrOr//QvLeWEyBxNsU4PPC1X/BdGOTIaY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Projekt_Praktikum_NETQM_3.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-TOBIAS\haask" issuerKeyHash="0a49e1146e18252f6099056199c771063969cf20" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VuMN/LCe9cHFE1DAfXcudlBpdr66RRBm3ozYQmkcRW4=</DigestValue></Reference></SignedInfo><SignatureValue>t3OK4ohlFRkeBe55y9SZWUxqBMOrk5cxDvOj/LhP8+LTBMj7upYX7J13867zk4EVD7uqUm/6oR5wJIrsrNv0kGSeY26f+E/o1R35/vBl7A1Ol/lhkzdLYc1I2s6n2HUQw1Lf81Gs8mNKvHquJDam93GO7BEMIlkH7OsHO6j4jwA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yCJI3Ep5w5hTiSsCQfZnTKCxGmF2/OnVS4Mh1OH/mY1X5KZVdFB82EuhTL0UzkCa6BU7tBorJ2Auq7oUqEl7PUJNj486Dr503PutLtoqtEqQ0/WwEVt91adup/QbLsJTpuDj50lkzxe3bAmqV8Gql3OwWMh8dEz4fk2c9s+p66U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6e451c6942d88cde661045babe766950762e777dc05013c5c1f59eb0fc0de356" Description="" Url=""><as:assemblyIdentity name="Projekt_Praktikum_NETQM_3.exe" version="1.0.0.6" publicKeyToken="9ee61cfa7ffdb9ed" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-TOBIAS\haask</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4Y8zSVev/yocTJe9amDzWM7m//9g3x/PRtNm/abgmso=</DigestValue></Reference></SignedInfo><SignatureValue>RYNUscU7vzPT15YB11ASQo8oKpE83Qhqlc4yUZE5dSn4mIYeigw4NlFoMJPxMTuEPuOctXnn8vQYZ4XpXlClQyDIslogPinFEK/RSXrqERgAVmL/2lDsURyLVqGce/J4jJFQUc6CL3fhOD8Fe0Y8BD2OOsaT4YUk4u9Oh0RHehY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yCJI3Ep5w5hTiSsCQfZnTKCxGmF2/OnVS4Mh1OH/mY1X5KZVdFB82EuhTL0UzkCa6BU7tBorJ2Auq7oUqEl7PUJNj486Dr503PutLtoqtEqQ0/WwEVt91adup/QbLsJTpuDj50lkzxe3bAmqV8Gql3OwWMh8dEz4fk2c9s+p66U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQHXEGsKi/YLlEy2R9u3HzcDANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYATABBAFAAVABPAFAALQBUAE8AQgBJAEEAUwBcAGgAYQBhAHMAazAeFw0yMjEwMTIxODI1NTFaFw0yMzEwMTMwMDI1NTFaMDExLzAtBgNVBAMeJgBMAEEAUABUAE8AUAAtAFQATwBCAEkAQQBTAFwAaABhAGEAcwBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIIkjcSnnDmFOJKwJB9mdMoLEaYXb86dVLgyHU4f+ZjVfkplV0UHzYS6FMvRTOQJroFTu0GisnYC6ruhSoSXs9Qk2PjzoOvnTc+60u2iq0SpDT9bARW33Vp26n9BsuwlOm4OPnSWTPF7dsCapXwaqXc7BYyHx0TPh+TZz2z6nrpQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHUSo3JREBdg56dmug8RfwPBDi9KfZqkqPL0bWL5bzmcPtY1sBxzdz72V01fOUQdddv84AbzMtGHmYfZLRVtGxjoyEyRcEu60F7V7MY3UNNPv2H5W+7M6gata+ZYLG+RKq8s0nY442xrS4b1/U9+8dTa53OJ7GcUOM2s/xHTqo7i</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
